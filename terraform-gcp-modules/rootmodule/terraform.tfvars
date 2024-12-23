@@ -1,4 +1,4 @@
-project_id = "eurus-project-dev"
+project_id = ""
 region     = "us-central1"
 zone       = "us-central1-a"
 
@@ -41,8 +41,8 @@ instance_templates = [
 # cloud sql 
 cloud_sql_config = [
   {
-    root_password     = "aqeel123"
-    database_name     = "wordpress"
+    root_password     = ""
+    database_name     = ""
     sql_instance_name = "cloudsql-aqeel"
     database_version  = "MYSQL_8_0"
     tier              = "db-f1-micro"
